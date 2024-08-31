@@ -1,0 +1,29 @@
+{
+    "name": "radenparhanudin/ws-auth",
+    "description": "Autentikasi Web Service SIMPEG BKN",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "goldspecdigital/laravel-eloquent-uuid": "^10.0",
+        "spatie/laravel-permission": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Radenparhanudin\\WsAuth\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Radenparhanudin\\WsAuth\\WSAuthServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Raden Parhanudin",
+            "email": "radenparhanudin@gmail.com"
+        }
+    ]
+}
